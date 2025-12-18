@@ -1,0 +1,10 @@
+utils/__pycache__/
+*.pyc
+.git/
+venv/
+*.ipynb
+*.log
+cloud_vision.json
+vertex_ai.json
+service_account.json
+.env

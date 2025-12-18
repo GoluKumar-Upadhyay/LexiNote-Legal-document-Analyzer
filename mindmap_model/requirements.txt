@@ -1,0 +1,7 @@
+flask
+python-dotenv
+google-cloud-aiplatform
+langchain-core
+langchain-google-vertexai
+vertexai
+gunicorn

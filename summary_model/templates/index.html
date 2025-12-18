@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Summarizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="p-8">
+
+    <div class="max-w-4xl mx-auto bg-white p-6 md:p-10 shadow-xl rounded-xl">
+        <h1 class="text-4xl font-extrabold text-center text-gray-900 mb-8">AI Document Summarizer</h1>
+        <p class="text-center text-gray-600 mb-8">Select a category and paste your document text below for a structured summary.</p>
+
+        <form method="POST" action="/summarize" class="space-y-6">
+            
+            <!-- Category Selection -->
+            <div>
+                <label for="category" class="block text-sm font-medium text-gray-700 mb-2">1. Select Document Category</label>
+                <select id="category" name="category" required 
+                        class="mt-1 block w-full pl-3 pr-10 py-3 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg rounded-lg shadow-sm transition duration-150 ease-in-out">
+                    <option value="" disabled selected>-- Choose Document Type --</option>
+                    <option value="student">🎓 Student Document</option>
+                    <option value="citizen">🏛 Citizen Document</option>
+                    <option value="business">💼 Business Document</option>
+                </select>
+            </div>
+
+            <!-- Document Text Input -->
+            <div>
+                <label for="document_text" class="block text-sm font-medium text-gray-700 mb-2">2. Paste Document Text</label>
+                <textarea id="document_text" name="document_text" rows="15" required 
+                          placeholder="Paste the text of your legal document, academic report, or business contract here..."
+                          class="mt-1 block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm md:text-base"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" 
+                    class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-lg text-lg font-semibold text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 ease-in-out transform hover:scale-[1.01]">
+                Generate Structured Summary
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>

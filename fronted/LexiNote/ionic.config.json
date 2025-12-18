@@ -1,0 +1,7 @@
+{
+  "name": "LexiNote",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
