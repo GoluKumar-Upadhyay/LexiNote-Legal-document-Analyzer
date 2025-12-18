@@ -133,7 +133,7 @@ KnowYourTerms addresses these challenges through a comprehensive AI-powered plat
 | Technology | Purpose |  
 |------------|---------|  
 | **NLP** | text handling |  
-| **Python** | backned language |  
+| **Python** | backend language |  
 | **Open CV** | analyze png,jpg document |  
 
 
