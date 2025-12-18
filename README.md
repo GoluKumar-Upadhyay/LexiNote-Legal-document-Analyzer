@@ -124,7 +124,7 @@ KnowYourTerms addresses these challenges through a comprehensive AI-powered plat
 ### ⚙️ **Backend**  
 | Technology | Purpose |  
 |------------|---------|  
-|**Flask**||
+|**Flask**|Backend model handling|
 
 
 ---
@@ -132,11 +132,10 @@ KnowYourTerms addresses these challenges through a comprehensive AI-powered plat
 ### 🤖 **AI Model**  
 | Technology | Purpose |  
 |------------|---------|  
-| **NLP** |  |  
-| **Python** |  |  
-| **Open CV** |  |  
-| **TEnsorFlow** |  |  
-| **Google Cloud Natural Language** | Sentiment and entity analysis |  
+| **NLP** | text handling |  
+| **Python** | backned language |  
+| **Open CV** | analyze png,jpg document |  
+
 
 ---
 
