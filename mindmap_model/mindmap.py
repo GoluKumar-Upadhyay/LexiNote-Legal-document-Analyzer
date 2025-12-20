@@ -47,7 +47,7 @@ try:
    
     vertex_key_path = os.getenv("VERTEX_AI_KEY")
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = vertex_key_path
-    PROJECT_ID = "ageless-earth-457916-v1"
+    PROJECT_ID = os.getenv("PROJECT_ID")
     vertexai.init(project=PROJECT_ID, location="us-central1")
 
     safety_settings = {

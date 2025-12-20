@@ -3,10 +3,12 @@ from pinecone import Pinecone
 from sentence_transformers import SentenceTransformer
 from utils.model import llm
 
-# ---------------- CONFIG ----------------
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-INDEX_NAME = "indian-law-acts"
-EMBED_MODEL = "all-MiniLM-L6-v2"
+INDEX_NAME = os.getenv("INDEX_NAME")
+MODEL_NAME = os.getenv("MODEL_NAME")
+API_URL = os.getenv("API_URL")
+
+EMBED_MODEL = os.getenv("EMBED_MODEL")
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index(INDEX_NAME)

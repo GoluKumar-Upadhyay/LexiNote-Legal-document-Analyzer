@@ -10,9 +10,9 @@ import time
 
 # ---------- CONFIG ----------
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-INDEX_NAME = "indian-law-acts"
-MODEL_NAME = "all-MiniLM-L6-v2"
-API_URL = "https://law-data-512598250527.asia-south2.run.app/api/v1/laws/get-all-laws"
+INDEX_NAME = os.getenv("INDEX_NAME")
+MODEL_NAME = os.getenv("MODEL_NAME")
+API_URL = os.getenv("API_URL")
 
 # ---------- PARAMETERS ----------
 CHUNK_SIZE = 4000        # Split long text (only if needed)

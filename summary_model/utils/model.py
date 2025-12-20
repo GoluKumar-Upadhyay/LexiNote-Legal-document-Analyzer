@@ -12,7 +12,7 @@ VERTEX_AI_CREDENTIALS = os.getenv("VERTEX_AI_KEY")
 if VERTEX_AI_CREDENTIALS:
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = VERTEX_AI_CREDENTIALS
 
-PROJECT_ID = "ageless-earth-457916-v1"
+PROJECT_ID = os.getenv("PROJECT_ID")
 vertexai.init(project=PROJECT_ID, location="us-central1")
 
 

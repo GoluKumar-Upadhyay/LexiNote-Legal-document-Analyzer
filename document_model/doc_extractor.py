@@ -33,7 +33,7 @@ app = Flask(
 
 CORS(app)
 
-# GOOGLE_APPLICATION_CREDENTIALS / VERTEX_AI_CREDENTIALS accordingly.
+
 vision_client = vision.ImageAnnotatorClient()
 
 # Vertex AI client (will use ADC or VERTEX_AI_CREDENTIALS if set)
