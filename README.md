@@ -59,6 +59,9 @@ KnowYourTerms addresses these challenges through a comprehensive AI-powered plat
 - **24/7 Availability**: Round-the-clock legal guidance and support
 - **Conversation History**: Save and revisit previous discussions
   
+##  Working Archetecture
+<img width="1288" height="625" alt="Screenshot 2025-12-21 152824" src="https://github.com/user-attachments/assets/34139d95-ffd6-432e-8554-040e7306fe77" />
+
 
 
 
