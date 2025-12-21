@@ -127,7 +127,7 @@ KnowYourTerms addresses these challenges through a comprehensive AI-powered plat
 ### ⚙️ **Backend**  
 | Technology | Purpose |  
 |------------|---------|  
-|**Flask**|Backend model handling|
+|**Flask**|Bakend|
 
 
 ---
