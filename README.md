@@ -229,7 +229,7 @@ mindmap
       Contextual recommendations
     India-First
       Indian legal framework
-      22+ languages
+
       Regional compliance
     Intelligence
       Actionable insights
