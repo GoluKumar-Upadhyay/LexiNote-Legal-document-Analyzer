@@ -178,7 +178,7 @@ Creating barriers to understanding and participation
 <img src="https://img.shields.io/badge/✅-Smart_Checking-00C853?style=flat-square"/>
 <img src="https://img.shields.io/badge/⏰-Expiry_Monitoring-FF5722?style=flat-square"/>
 
-- **Smart Document Checking**: Automated verification of personal documents (PAN, Aadhhar)
+- **Smart Document Checking**: Automated verification of personal documents (Rental Agreement, offer letter)
 - **Compliance Verification**: Ensure documents meet Indian legal standards
 - **Format Validation**: Intelligent checking of document structure and requirements
 - **Expiry Monitoring**: Alert system for document renewal deadlines
