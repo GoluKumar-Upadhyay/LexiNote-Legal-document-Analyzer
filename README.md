@@ -104,12 +104,7 @@ Creating barriers to understanding and participation
 
 </details>
 
-<details open>
-<summary><b>🌐 Multilingual Support</b></summary>
 
-- Available in 22+ Indian languages
-
-</details>
 
 <details open>
 <summary><b>💬 AI Legal Assistant</b></summary>
@@ -121,7 +116,7 @@ Creating barriers to understanding and participation
 <details open>
 <summary><b>✅ Document Validation</b></summary>
 
-- Check personal documents (PAN, Aadhaar) for compliance
+- Check personal documents (Renstal agreement, offer letter) for compliance
 
 </details>
 
