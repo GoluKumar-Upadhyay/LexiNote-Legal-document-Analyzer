@@ -1,0 +1,51 @@
+:root {
+  --ion-background-color: #f8f9ff;
+  --ion-text-color: #0b1c30;
+  --ion-toolbar-background: #ffffff;
+  --ion-toolbar-color: #0b1c30;
+  --lexi-ink: #0b1c30;
+  --lexi-subtle: #45464d;
+  --lexi-border: #c6c6cd;
+  --lexi-panel: #ffffff;
+  --lexi-panel-soft: #eff4ff;
+  --lexi-primary: #131b2e;
+  --lexi-primary-soft: #e5eeff;
+  --lexi-secondary: #0058be;
+  --lexi-warning: #ba1a1a;
+  --lexi-warning-soft: #ffdad6;
+  --lexi-success: #166534;
+  --lexi-success-soft: #edf8f0;
+  --lexi-gold: #2563eb;
+  --lexi-background: #f8f9ff;
+  --lexi-banner: #131b2e;
+  --lexi-paper: #ffffff;
+}
+
+html,
+body,
+#root,
+ion-app,
+ion-content {
+  background: var(--lexi-background);
+  color: var(--lexi-ink);
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+ion-button {
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+ion-content::part(background) {
+  background: var(--lexi-background);
+}
+
+.fullscreen-modal::part(content) {
+  --width: min(1200px, 96vw);
+  --height: min(92vh, 960px);
+  border-radius: 24px;
+  overflow: hidden;
+}

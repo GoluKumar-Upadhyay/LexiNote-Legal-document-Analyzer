@@ -1,0 +1,1 @@
+"""LexiNote backend package."""
